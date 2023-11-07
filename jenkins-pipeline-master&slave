@@ -2,7 +2,6 @@ pipeline {
     agent {aa
         label 'specific-slave'
     }
-//define
     stages {
         stage('Build') {
             steps {
